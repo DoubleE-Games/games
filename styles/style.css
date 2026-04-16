@@ -39,7 +39,33 @@ header img {
 
 }
 
-header>ul {
+.menu-content{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.menu-content>nav{
+    display: flex;
+  gap: 8px;
+
+  align-items: center;
+}
+
+.menu-content>nav>a{
+  width: auto;
+  height: auto;
+      display: flex;
+  align-items: center;
+
+}
+
+.menu-content>nav>a>img{
+  width: 32px;
+  height: auto;
+}
+
+header>div>ul {
   /* border: 1px solid black; */
 
   display: flex;
@@ -47,12 +73,12 @@ header>ul {
   align-items: center;
 }
 
-header>ul>li {
+header>div>ul>li {
   margin: 0px;
   padding: 0px;
 }
 
-header>ul>li>a {
+header>div>ul>li>a {
   margin: 0px;
   padding: 10px 20px;
 
@@ -65,7 +91,7 @@ header>ul>li>a {
   font-weight: 700;
 }
 
-header>ul>li>a:hover {
+header>div>ul>li>a:hover {
   text-decoration: underline;
 }
 
